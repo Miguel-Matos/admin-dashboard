@@ -1,0 +1,38 @@
+div {
+    border: 1px solid black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 300px repeat(2, 1fr);
+    grid-template-rows: 150px 600px;
+}
+
+#left {
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-color: rgb(48, 151, 241);
+    color: white
+}
+
+#top {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+#content {
+    grid-area: 2/2/5/4;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.projects {
+    width: 200px;
+    height: 200px;
+}
+
+.info1 {
+    grid-column-start: 3;
+    grid-row: 1/4;
+}
