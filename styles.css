@@ -93,6 +93,51 @@ main {
     align-items: center;
 }
 
+#mglass {
+    grid-column-start: 1;
+}
+
+#search {
+    grid-column-start: 2;
+}
+
+#bell {
+    grid-column-start: 3;
+}
+
+#pic2 {
+    grid-column-start: 4;
+}
+
+#user {
+    grid-column-start: 5;
+}
+
+#pic1 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+#tag {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+#new {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+#upload {
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+#upload {
+    grid-column-start: 5;
+    grid-row-start: 2;
+}
+
 #top div {
     font-family: sans-serif;
 }
@@ -112,8 +157,6 @@ main {
 #top input:hover, #top input:focus {
     background-color: rgb(234, 234, 234);
 }
-
-
 
 #content {
     grid-area: 2/2/5/4;
