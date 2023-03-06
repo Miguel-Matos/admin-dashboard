@@ -89,7 +89,31 @@ main {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: 1fr 4fr repeat(3, 1fr);
+    padding: 25px;
+    align-items: center;
 }
+
+#top div {
+    font-family: sans-serif;
+}
+#top button {
+    color: white;
+    background-color: rgb(48, 151, 241);
+    border-radius: 20px;
+    margin: 5px 5px;
+    padding: 10px 0;
+    font-size: small;
+}
+#top input {
+    border-radius: 10px;
+    height: 25px;
+}
+
+#top input:hover, #top input:focus {
+    background-color: rgb(234, 234, 234);
+}
+
+
 
 #content {
     grid-area: 2/2/5/4;
