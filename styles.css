@@ -130,8 +130,17 @@ main {
 #tag {
     grid-column-start: 2;
     grid-row-start: 2;
-    font-size: 25px;
     padding-left: 10px;
+}
+
+#tag a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+#tag a:hover {
+    color:rgb(48, 151, 241)
 }
 
 #new {
@@ -235,6 +244,15 @@ hr {
     display: grid;
 }
 
+.right div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 25px;
+    padding: 0 5px;
+}
+
 .right div:nth-child(1) {
     border-radius: 10px 10px 0 0;
 }
@@ -254,4 +272,10 @@ hr {
     filter: brightness(95%);
     box-shadow: 2px 5px 10px gray;
     border-radius: 10px;
+}
+
+.right a {
+    text-decoration: none;
+    color: rgb(48, 151, 241);
+    font-family: sans-serif;
 }
