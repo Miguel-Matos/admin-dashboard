@@ -228,11 +228,11 @@ p {
     text-align: center;
 }
 
-#projects div:hover {
+#projects > div:hover {
     box-shadow: 2px 5px 10px gray;
 }
 
-#projects div {
+#projects > div {
     border-left: 10px solid orange;
 }
 
@@ -278,4 +278,23 @@ hr {
     text-decoration: none;
     color: rgb(48, 151, 241);
     font-family: sans-serif;
+}
+
+.pc {
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+}
+
+.title {
+    flex: 1;
+    font-size: larger;
+}
+
+.title + div {
+    flex: 2;
+}
+
+.icons {
+    align-self: flex-end;
 }
